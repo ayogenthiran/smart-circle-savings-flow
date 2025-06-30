@@ -1,73 +1,71 @@
-# Welcome to your Lovable project
+# 🛒 SmartCircles
 
-## Project info
+**group up automatically, _save more, earn cash_**
 
-**URL**: https://lovable.dev/projects/b06b7021-0d6e-4150-a03c-1bd411cf99fa
+SmartCircles is a collaborative savings web app developed at the **2025 no name Hackathon** hosted by **Loblaws Companies Limited**. It helps local shoppers form AI-generated purchasing groups to unlock bulk discounts, earn cash rewards through challenges, and save money on everyday essentials.
 
-## How can I edit this code?
+![unnamed](https://github.com/user-attachments/assets/6fbba289-29db-4fcb-a8ea-fa8b5677a3ac)
 
-There are several ways of editing your application.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/b06b7021-0d6e-4150-a03c-1bd411cf99fa) and start prompting.
+## 🧠 Overview
 
-Changes made via Lovable will be committed automatically to this repo.
+SmartCircles uses machine learning to analyze user transactions, determine their shopping patterns and life stage, and automatically group them with compatible shoppers nearby.
 
-**Use your preferred IDE**
+### 🔥 Key Features
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Smart Circle Formation**
+  - AI matches users by location, life stage, and purchasing habits.
+  - Automatic circle formation for frictionless group coordination.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **Group Deals & Savings**
+  - Unlock exclusive group discounts (e.g., 15–25% off diapers).
+  - Bulk deals triggered when enough users participate.
 
-Follow these steps:
+- **Weekend Challenges**
+  - Gamified, opt-in savings goals for real cash rewards.
+  - Encourages community savings through fun, time-bound goals.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- **Transaction Classification Engine**
+  - Infers life stage from anonymized transaction data.
+  - Tags users with traits like “Budget-Conscious” or “Bulk Buyer”.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- **Circle Matching Algorithm**
+  - Live visualization of circle creation logic.
+  - Ensures optimal group composition for savings potential.
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 💻 Tech Stack
 
-**Edit a file directly in GitHub**
+- **Frontend**: React + TailwindCSS
+- **Backend**: Node.js / Express (API and matching logic)
+- **AI/ML**: Custom life stage classification and matching algorithm
+- **Data**: Transaction data parsing & classification engine
+- **Deployment**: [Optional—insert if hosted live]
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 📸 Screenshots
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+| Feature | Preview |
+|--------|---------|
+| Landing Page | ![Landing](./screenshots/landing.png) |
+| Dashboard & Circle View | ![Dashboard](./screenshots/dashboard.png) |
+| Classification Engine | ![Classifier](./screenshots/classification.png) |
+| Matching Demo | ![Matching](./screenshots/matching.png) |
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 🏁 Getting Started
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/smartcircles.git
+   cd smartcircles
 
-## How can I deploy this project?
+2. npm install
 
-Simply open [Lovable](https://lovable.dev/projects/b06b7021-0d6e-4150-a03c-1bd411cf99fa) and click on Share -> Publish.
+3. npm run dev
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
